@@ -15,5 +15,4 @@ const MenuItem = ({title, imageUrl, size, history, linkUrl, match}) => {
         </div>  
     )
 }
-// history.push(`${match.url}${LinkUrl}`)
 export default withRouter(MenuItem);
